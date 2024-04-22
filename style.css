@@ -202,4 +202,38 @@ background-attachment: fixed;
     height: auto;
 }
 
+.aboutbox {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 20px;
+    margin: 30px;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
 
+.text {
+    text-align: left;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: larger;
+    padding-bottom: 15px;
+}
+
+.tittle {
+    text-align: center;
+    color: white;
+    height: auto;
+    width: 490px;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 10px;
+    margin: auto;
+    font-size: 45px;
+    margin-top: 15px;
+    
+}
+
+.subtitle {
+    text-align: left;
+    margin-left: 120px;
+    font-size: 35px;
+}
