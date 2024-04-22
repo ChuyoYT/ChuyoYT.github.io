@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    background-image: url(/img/Fondo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    height: 70px;
+    margin-left: 25px;
+}
+
+nav a{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+nav a:hover{
+    color: rgb(224, 213, 213);
+    background-color: #320476;
+    border-radius: 5px;
+}
+
+h1 {
+    
+    margin: 10px;
+}
+
+.tittle {
+    text-align: center;
+    color: white;
+    height: auto;
+    width: 490px;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 10px;
+    margin: auto;
+    font-size: 45px;
+    padding-block: 1px;
+    margin-top: 15px;
+    
+}
+
+
+.subtitle{
+    text-align: left;
+    margin-left: 120px;
+    font-size: 35px;
+}
+
+
+.news{
+    height: 500px;
+    width: auto;
+    margin: 45px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 25px;
+    
+}
+
+.title_news {
+    color: white;
+    position: absolute;
+    left: 50%;
+    font-size: 40px;
+    
+}
+
+.news_img { 
+    width: 200px;
+    align-content: center;
+    margin: 20px;
+}
+
+.abs_pge {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 20px;
+    margin: 30px;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+
+.text {
+    text-align: left;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: larger;
+    padding-bottom: 15px;
+}
+
